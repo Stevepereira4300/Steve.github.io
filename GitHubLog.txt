@@ -1,0 +1,142 @@
+2017-01-23 21:19:24.7662|INFO|thread:33|AsyncReaderWriterLock|Released concurrent scheduler for operation: 4 at GitClient.cs:588 after blocking 0.0219425s
+2017-01-23 21:13:39.4730|INFO|thread: 1|GitHubEnvironment|ACTIVATION DATA RAW
+2017-01-23 21:13:39.5020|INFO|thread: 1|GitHubEnvironment|[http://github-windows.s3.amazonaws.com/GitHub.application]: '0'
+2017-01-23 21:13:39.5051|INFO|thread: 1|GitHubEnvironment|ACTIVATION DATA UNENCODED
+2017-01-23 21:13:39.5051|INFO|thread: 1|GitHubEnvironment|[http://github-windows.s3.amazonaws.com/GitHub.application]: '0'
+2017-01-23 21:13:39.5051|INFO|thread: 1|CommandLineHandler|Parsing command line arguments:http://github-windows.s3.amazonaws.com/GitHub.application
+2017-01-23 21:13:39.5481|INFO|thread: 1|CommandLineHandler|Unprocessed args: http://github-windows.s3.amazonaws.com/GitHub.application
+2017-01-23 21:13:39.5961|WARN|thread: 1|CommandHandler|Exception occurred while opening path 'http://github-windows.s3.amazonaws.com/GitHub.application'
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at GitHub.Helpers.CommandHandler.SelectRepositoryByPath(String path)
+2017-01-23 21:13:39.8281|INFO|thread: 1|AppInstance|Starting up as master instance of GitHub Desktop
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| #########################################
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| GitHub Desktop started. VERSION: 3.3.3.0
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| Build version: bc4735a097cc8cc1e98a3dddd8ca10ffd83cbb68
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| ***************************************
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| ***                                 ***
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| ***                                 ***
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| ***        Have a problem?          ***
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| ***    Email support@github.com     ***
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| ***      and include this file      ***
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| ***                                 ***
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| ***                                 ***
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| ***************************************
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| OS Version: Windows NT 6.3.9600.0 amd64
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| CLR Version: 4.0.30319.34014
+2017-01-23 21:13:39.9941|INFO|thread: 5|StartupLogging| Current culture: en-IN
+2017-01-23 21:13:40.0971|INFO|thread: 5|StartupLogging| Environment.CurrentDirectory: C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4
+2017-01-23 21:13:40.0971|INFO|thread: 5|StartupLogging| currentProcess.StartInfo.WorkingDirectory: 
+2017-01-23 21:13:40.0971|INFO|thread: 5|StartupLogging| Terminal Services session: no
+2017-01-23 21:13:40.0971|INFO|thread: 5|StartupLogging| Location: C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4\GitHub.exe
+2017-01-23 21:13:40.5361|INFO|thread: 5|StartupLogging| ActivationUri: https://github-windows.s3.amazonaws.com/GitHub.application
+2017-01-23 21:13:40.5361|INFO|thread: 5|StartupLogging| System.Environment.CommandLine: C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4\GitHub.exe
+2017-01-23 21:13:40.6871|INFO|thread: 1|HardwareRenderingHelper|Making a WMI query to discover any video PNPID entries
+2017-01-23 21:13:40.7631|INFO|thread: 5|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2017-01-23 21:13:40.7631|INFO|thread: 5|GitEnvironment|PATH is C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\cmd;C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\usr\bin;C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\usr\share\git-tfs;C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4;C:\Users\Abc\AppData\Local\GitHub\lfs-amd64_1.3.1;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+2017-01-23 21:13:40.7631|INFO|thread: 5|StartupLogging| =====================================================
+2017-01-23 21:13:40.7631|INFO|thread: 5|StartupLogging|  DIAGNOSTICS                                        |
+2017-01-23 21:13:40.7631|INFO|thread: 5|StartupLogging| =====================================================
+2017-01-23 21:13:40.7631|INFO|thread: 5|StartupLogging| Git Extracted: 'False:
+2017-01-23 21:13:40.7711|ERROR|thread: 5|StartupLogging| MISSING PortableGit Dir: 'C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11'
+2017-01-23 21:13:40.8031|ERROR|thread: 5|PortableGitManager|git.exe doesn't exist at 'C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\cmd\git.exe'
+2017-01-23 21:13:40.8031|ERROR|thread: 5|StartupLogging| MISSING Git Executable: 'C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\cmd\git.exe'
+2017-01-23 21:13:40.8031|ERROR|thread: 5|StartupLogging| MISSING PATH!!: 'C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\cmd'
+2017-01-23 21:13:40.8031|ERROR|thread: 5|StartupLogging| MISSING PATH!!: 'C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\usr\bin'
+2017-01-23 21:13:40.8031|ERROR|thread: 5|StartupLogging| MISSING PATH!!: 'C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\usr\share\git-tfs'
+2017-01-23 21:13:40.8031|ERROR|thread: 5|StartupLogging| MISSING PATH!!: 'C:\Users\Abc\AppData\Local\GitHub\lfs-amd64_1.3.1'
+2017-01-23 21:13:40.8031|INFO|thread: 5|StartupLogging| ----------------------------------------------------
+2017-01-23 21:13:40.8031|INFO|thread: 5|StartupLogging| PATH: C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static
+2017-01-23 21:13:40.9891|INFO|thread: 5|StartupLogger|Proxy information: (None)
+2017-01-23 21:13:40.9891|INFO|thread: 5|StartupLogger|Couldn't fetch creds for proxy
+2017-01-23 21:13:41.2552|INFO|thread: 5|UrlProtocolInstaller|Registered UrlAppLauncher protocol: "C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4\GitHub.exe" -u="%1"
+2017-01-23 21:13:41.2742|INFO|thread: 5|ShortcutManager|Shortcut 'C:\Users\Abc\AppData\Local\GitHub\GitHub.appref-ms' missing. Assuming a first run.
+2017-01-23 21:13:41.2742|INFO|thread: 5|ShortcutManager|Copying the Start Menu shortcut 'C:\Users\Abc\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc\GitHub.appref-ms' to 'C:\Users\Abc\AppData\Local\GitHub\GitHub.appref-ms'
+2017-01-23 21:13:41.4772|INFO|thread: 5|ShortcutManager|Saving the Git Shell shortcut C:\Users\Abc\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc\Git Shell.lnk
+2017-01-23 21:13:41.5562|INFO|thread: 5|ShortcutManager|Saving the Git Shell shortcut C:\Users\Abc\Desktop\Git Shell.lnk
+2017-01-23 21:13:41.7642|INFO|thread: 1|HardwareRenderingHelper|Your video card appears to support hardware rendering. If this isn't the case and you see glitches
+2017-01-23 21:13:41.7642|INFO|thread: 1|HardwareRenderingHelper|set the GH_FORCE_SW_RENDERING environment variable to 1
+2017-01-23 21:13:41.8512|INFO|thread: 5|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4\lib\7za.exe', Args: 'x -y "-oC:\Users\Abc\AppData\Local\GitHub\tqlxv15d.32a.deleteme" "C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4\PortableGit.7z"', Working Directory: 
+2017-01-23 21:13:42.5892|INFO|thread: 5|PortablePackageManager|Extracting PortableGit.7z is (so far) successful
+2017-01-23 21:13:45.2664|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4\lib\7za.exe', Args: 'x -y "-oC:\Users\Abc\AppData\Local\GitHub\g3mu4mbg.2xc.deleteme" "C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4\tutorial.7z"', Working Directory: 
+2017-01-23 21:13:45.3084|INFO|thread: 1|PortablePackageManager|Extracting tutorial.7z is (so far) successful
+2017-01-23 21:13:45.3224|INFO|thread: 1|GitHubEnvironment|ACTIVATION DATA RAW
+2017-01-23 21:13:45.3224|INFO|thread: 1|GitHubEnvironment|[http://github-windows.s3.amazonaws.com/GitHub.application]: '0'
+2017-01-23 21:13:45.3224|INFO|thread: 1|GitHubEnvironment|ACTIVATION DATA UNENCODED
+2017-01-23 21:13:45.3224|INFO|thread: 1|GitHubEnvironment|[http://github-windows.s3.amazonaws.com/GitHub.application]: '0'
+2017-01-23 21:13:45.3224|INFO|thread: 1|App|Checking whether application is network deployed: True
+2017-01-23 21:13:45.3224|INFO|thread: 1|App|Shortcut C:\Users\Abc\AppData\Local\GitHub\GitHub.appref-ms exists? True
+2017-01-23 21:13:47.1295|INFO|thread:10|PortablePackageManager|Extracted package successfully: tutorial.7z
+2017-01-23 21:13:48.4246|INFO|thread: 1|ClickOnceAppIconHelper|Updating registry with our application icon 'C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4\Images\App.ico'
+2017-01-23 21:13:58.7002|INFO|thread:18|SoftwareUpdateViewModel|Checking for new version
+2017-01-23 21:14:06.5006|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.ShellViewModel.
+2017-01-23 21:14:06.5006|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.DashboardViewModel.
+2017-01-23 21:14:20.2164|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4\lib\7za.exe', Args: 'x -y "-oC:\Users\Abc\AppData\Local\GitHub\4dciuks3.lqx.deleteme" "C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4\gitignore.7z"', Working Directory: 
+2017-01-23 21:14:20.2324|INFO|thread: 1|PortablePackageManager|Extracting gitignore.7z is (so far) successful
+2017-01-23 21:14:25.1287|INFO|thread:20|DashboardViewModel|Selected repository '/Tutorial'
+2017-01-23 21:14:25.2947|INFO|thread:20|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 1 at GitClient.cs:605
+2017-01-23 21:14:25.3057|INFO|thread:20|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 2 at GitClient.cs:583
+2017-01-23 21:14:31.5150|WARN|thread:18|LoginCache|Could not get login for host 'GitHub.HostAddress'
+System.Collections.Generic.KeyNotFoundException: The given key 'login:github.com' was not present in the cache.
+2017-01-23 21:14:31.6200|WARN|thread:18|LoginCache|Could not get login for host 'GitHub.HostAddress'
+System.Collections.Generic.KeyNotFoundException: The given key 'login:null' was not present in the cache.
+2017-01-23 21:14:31.6200|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 1 at GitClient.cs:605 after waiting 6.3313678s
+2017-01-23 21:14:31.7531|INFO|thread:26|PortablePackageManager|Extracted package successfully: gitignore.7z
+2017-01-23 21:14:32.9621|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.WelcomeWizardViewModel.
+2017-01-23 21:14:33.7242|INFO|thread:26|AsyncReaderWriterLock|Released concurrent scheduler for operation: 1 at GitClient.cs:605 after blocking 2.0977884s
+2017-01-23 21:14:33.7802|INFO|thread:26|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 2 at GitClient.cs:583 after waiting 8.4749671s
+2017-01-23 21:14:40.5586|INFO|thread:26|DashboardViewModel|Took 15357ms to Create RepositoryViewModel for location C:\Users\Abc\AppData\Local\GitHub\TutorialRepository_d0aa732a2b4666b3029e2320f1a06cd39e99c9fc\new-repo
+2017-01-23 21:14:40.5586|INFO|thread:26|AsyncReaderWriterLock|Released exclusive scheduler for operation: 2 at GitClient.cs:583 after blocking 6.7798335s
+2017-01-23 21:15:20.9112|WARN|thread:18|AnonymousIdentifierProvider|No anonymous identifier in cache, inserting: 45c4f5c7c5e249c288f09f9ad269426b
+2017-01-23 21:15:25.2754|INFO|thread:26|BlobCacheUtils|Vacuuming C:\Users\Abc\AppData\Local\GitHub\images.cache.db
+2017-01-23 21:15:25.5674|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Stevepereira4300' to host 'https://api.github.com/' SUCCEEDED
+2017-01-23 21:15:26.0304|INFO|thread: 1|RepositoryHosts|Log in to GitHub.com with username '9765965990.sp@gmail.com' SUCCEEDED
+2017-01-23 21:15:26.2615|INFO|thread:18|GitConfig|Setting default global git configuration for user.name b/c it was blank. value = Stevepereira4300
+2017-01-23 21:15:31.9278|INFO|thread:18|GitConfig|Saving global git configuration for user.name and user.email
+2017-01-23 21:15:31.9278|INFO|thread:18|GitConfig|Changing global git configuration for user.email. value = 9765965990.sp@gmail.com
+2017-01-23 21:15:40.1133|INFO|thread: 1|ReactiveScreen|Deactivating GitHub.ViewModels.WelcomeWizardViewModel.
+2017-01-23 21:15:40.1133|INFO|thread: 1|ReactiveScreen|Closed GitHub.ViewModels.WelcomeWizardViewModel.
+2017-01-23 21:17:42.3258|INFO|thread: 1|RepositoryModel|Creating and initializing new local repository here 'C:\Users\Abc\Desktop\Github\Steve.github.io'
+2017-01-23 21:17:43.5559|INFO|thread:27|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 3 at RepositoryModel.cs:1336
+2017-01-23 21:17:43.5559|INFO|thread:27|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 3 at RepositoryModel.cs:1336 after waiting 0.0016285s
+2017-01-23 21:17:43.6179|INFO|thread:27|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2017-01-23 21:17:43.6179|INFO|thread:27|GitEnvironment|PATH is C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\cmd;C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\usr\bin;C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\usr\share\git-tfs;C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4;C:\Users\Abc\AppData\Local\GitHub\lfs-amd64_1.3.1;C:\windows\System32;C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+2017-01-23 21:17:43.6179|INFO|thread:27|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\cmd\git.exe', Args: 'add --all "C:\Users\Abc\Desktop\Github\Steve.github.io\.gitattributes" ', Working Directory: C:\Users\Abc\Desktop\Github\Steve.github.io\
+2017-01-23 21:17:43.6529|ERROR|thread:27|ProcessWrapper|Exception thrown while running the following command: 'C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\cmd\git.exe add --all "C:\Users\Abc\Desktop\Github\Steve.github.io\.gitattributes" '
+2017-01-23 21:17:43.6709|WARN|thread:27|RepositoryModel|Failed to autocommit .gitattributes and/or .gitignore files
+System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at GitHub.IO.ProcessWrapper.Start()
+   at GitHub.IO.ObservableProcess..ctor(IProcess process, Boolean throwOnNonZeroExitCode)
+2017-01-23 21:17:43.7559|INFO|thread:27|AsyncReaderWriterLock|Released exclusive scheduler for operation: 3 at RepositoryModel.cs:1336 after blocking 0.1981471s
+2017-01-23 21:17:43.9589|WARN|thread: 1|StandardUserErrors|Showing user error An error occurred while creating the repository. You might need to open a shell and debug the state of this repo.
+System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at GitHub.IO.ProcessWrapper.Start()
+   at GitHub.IO.ObservableProcess..ctor(IProcess process, Boolean throwOnNonZeroExitCode)
+2017-01-23 21:18:34.2683|INFO|thread: 1|DashboardViewModel|Received request to clone: 'https://github.com/Stevepereira4300/Steve.github.io.git'
+2017-01-23 21:18:45.1930|INFO|thread: 1|RepositoryModel|Cloning repo https://github.com/Stevepereira4300/Steve.github.io.git
+2017-01-23 21:18:45.2280|INFO|thread: 1|GitLfsSmudgeTail|Setting Git LFS smudge progress environment variable
+2017-01-23 21:18:45.2570|INFO|thread: 1|RepositoryModel|Cloning 'https://github.com/Stevepereira4300/Steve.github.io.git' to 'Steve.github.io' in directory 'C:\Users\Abc\Documents\GitHub
+2017-01-23 21:18:45.2710|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2017-01-23 21:18:45.2710|INFO|thread: 1|GitEnvironment|PATH is C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\cmd;C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\usr\bin;C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\usr\share\git-tfs;C:\Users\Abc\AppData\Local\Apps\2.0\47K4K36C.HPB\NH2Q4M7Q.WNK\gith..tion_317444273a93ac29_0003.0003_665ccbdbd3c2d8d4;C:\Users\Abc\AppData\Local\GitHub\lfs-amd64_1.3.1;C:\windows\System32;C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+2017-01-23 21:18:45.2710|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\cmd\git.exe', Args: 'clone --progress --recursive  --  "https://github.com/Stevepereira4300/Steve.github.io.git" "Steve.github.io" ', Working Directory: C:\Users\Abc\Documents\GitHub
+2017-01-23 21:18:45.2710|ERROR|thread: 1|ProcessWrapper|Exception thrown while running the following command: 'C:\Users\Abc\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\cmd\git.exe clone --progress --recursive  --  "https://github.com/Stevepereira4300/Steve.github.io.git" "Steve.github.io" '
+2017-01-23 21:18:45.2990|INFO|thread: 1|GitLfsSmudgeTail|Cleaning up Git LFS smudge progress environment variable
+2017-01-23 21:18:45.3830|INFO|thread:20|DashboardViewModel|Selected repository 'Stevepereira4300/Steve.github.io'
+2017-01-23 21:18:46.1200|WARN|thread: 1|StandardUserErrors|Showing user error Please check your log file for more details, or contact out support team if you are still having problems.
+System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at GitHub.IO.ProcessWrapper.Start()
+   at GitHub.IO.ObservableProcess..ctor(IProcess process, Boolean throwOnNonZeroExitCode)
+2017-01-23 21:18:52.5454|INFO|thread:20|DashboardViewModel|Took 0ms to Create RepositoryViewModel for location C:\Users\Abc\Documents\GitHub\Steve.github.io
+2017-01-23 21:18:52.5454|INFO|thread:20|DashboardViewModel|Selected repository '/Tutorial'
+2017-01-23 21:19:24.6972|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 4 at GitClient.cs:588
+2017-01-23 21:19:24.7442|INFO|thread:33|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 4 at GitClient.cs:588 after waiting 0.047323s
